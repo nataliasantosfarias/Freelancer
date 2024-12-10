@@ -9,12 +9,13 @@ export default function Home() {
       <Header />
       {/* /* primeira div depois do header*/}
       <div className="flex flex-col min-h-screen">
-        <div className="ml-4">
+        <div className="ml-9 p-3">
           <Image
             src="/images/logosemfundo.png"
             alt="Logo fundo transparente"
-            width={100}
-            height={50} />
+            width={200} // Largura ajustada
+            height={100} // Altura ajustada
+          />
         </div>
         <main className="flex-grow container mx-auto p-4">
           {/* Conteúdo principal aqui */}
