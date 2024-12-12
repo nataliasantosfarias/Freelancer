@@ -6,15 +6,13 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         <p>&copy; 2024 Academia de Boxe. Todos os direitos reservados.</p>
         <div className="space-x-4 mt-2">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
-            Facebook
-          </a>
-          <a href="https://www.instagram.com/nocaute_clube_se/?locale=gb&hl=am-et" target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
+          
+          <a href="https://www.instagram.com/nocaute_clube_se/?locale=gb&hl=am-et" target="_blank" rel="noopener noreferrer" className="hover:text-red-800">
             Instagram
           </a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
-            Twitter
-          </a>
+          <p href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
+            Desenvolvido por Natália Farias Santos
+          </p>
         </div>
       </div>
     </footer>

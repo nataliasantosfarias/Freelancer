@@ -12,10 +12,12 @@ export default function Sidebar() {
   return (
     <>
       <button
-        onClick={toggleSidebar}
-        className="p-2 bg-red-800 text-white fixed top-4 left-4 z-10">
+        onClick={toggleSidebar} //Atributo define uma função que será chamada quando o botão for clicado,  a função toggleSidebar é chamada, que geralmente alterna a visibilidade da barra lateral.
+        className="p-2 bg-red-800 text-white fixed top-4 left-4 z-10 ">
       
-        Menu
+      <svg class="w-6 h-6 " aria-hidden="false" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+      </svg>
       </button>
       <div
         className={`fixed inset-0 bg-red-800 text-white w-64 p-4 transform ${
@@ -25,7 +27,9 @@ export default function Sidebar() {
         }`}
       >
         <div className="mb-4">
-          <h2 className="text-2xl font-bold">Menu</h2>
+            <svg class="w-6 h-6 " aria-hidden="false" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
         </div>
         <nav className="flex-grow">
           <ul className="space-y-2">
