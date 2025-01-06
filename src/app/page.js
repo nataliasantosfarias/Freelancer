@@ -1,13 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 
 
 export default function Home() {
   return (
     <div className="flex min-h-screen bg-white">
-      <Sidebar />
+      
       <div className="flex-grow flex flex-col">
         <Header />
         <main className="flex-grow container mx-auto p-4 flex flex-col md:flex-row items-center md:items-start ">
