@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaInstagram, FaLaptop } from 'react-icons/fa'; //íncons
 
 const Footer = () => {
   return (
@@ -7,14 +8,15 @@ const Footer = () => {
         <p>&copy; 2025 Nocaute clube boxe. Todos os direitos reservados.</p>
        
         <div className="space-x-4 mt-2">
-          <p href="https://www.instagram.com/nocaute_clube_se/?locale=gb&hl=am-et" target="_blank" rel="noopener noreferrer" className="hover:text-red-800">
-            Instagram
+          <p>
+            <a href="https://www.instagram.com/nocaute_clube_se/?locale=gb&hl=am-et" target="_blank" rel="noopener noreferrer" className="hover:text-red-800 flex items-center justify-center">
+              <FaInstagram className="mr-2" /> Instagram
+            </a>
           </p>
-          <p href="https://www.instagram.com/victo4_barbosa/" target="_blank" rel="noopener noreferrer" className="hover:text-red-800">
-            Treinador
-          </p>
-          <p href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
-            Desenvolvido por Natália Farias Santos
+          <p>
+            <a href="https://github.com/nataliasantosfarias" target="_blank" rel="noopener noreferrer" className="hover:text-red-800 flex items-center justify-center">
+              <FaLaptop className="mr-2" /> Desenvolvido por Natália Farias Santos
+            </a>
           </p>
         </div>
       </div>
