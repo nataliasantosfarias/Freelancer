@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import Header from './components/Header';
+
 
 export default function Home() {
   return (
     <div className="flex min-h-screen bg-white">
       <div className="flex-grow flex flex-col">
-        <Header />
+        
 
         {/* Adicionando a imagem principal após o Header */}
         <div className="relative w-full h-screen">
