@@ -1,28 +1,20 @@
 import React from 'react';
 import Image from 'next/image';
 
+
 export default function Home() {
   return (
     <>
+    
       {/* Adicionando a imagem principal após o Header */}
-      <div className="relative h-screen">
+      <div className="relative h-screen mt-40">
         <Image
           src="/images/bannerSemFundoPP.jpg"
           alt='Boxe'
           layout="fill"
           objectFit="contain" // Ajuste para manter a imagem visível
-          className="w-full h-full"
+          className="w-full h-fullbg-fixed "
         />
-        {/* Incluindo a imagem do logo sobreposta */}
-        <div className="absolute top-0 left-0">
-          <Image
-            src="/images/logoSemFundo.png"
-            alt="Logo"
-            width={250} // Largura ajustada
-            height={150} // Altura ajustada
-            className="object-contain"
-          />
-        </div>
       </div>
 
       {/* --------------Div principal------------------ */}
