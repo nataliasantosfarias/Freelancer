@@ -1,16 +1,37 @@
-"use client";
-import React from "react";
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import CardActionArea from '@mui/material/CardActionArea';
+import CardActions from '@mui/material/CardActions';
 
-
-export default function Sobre() {
-
+export default function MultiActionAreaCard() {
   return (
-    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
-      {/* <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden text-center"> */}
-        <div className ="text-center" >
-          <h1>Sobre</h1>
-        <div/>
-      </div>
-   </div>
+    <Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="140"
+          image="/images/bannerSemFundoPP.jpg"
+          alt="pica"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Lizard
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          Botão
+        </Button>
+      </CardActions>
+    </Card>
   );
 }
