@@ -2,8 +2,9 @@
 import React from 'react';
 import Image from 'next/image';
 import MenuPrincipal from './components/MenuPrincipal';
-import { BasicButton, Card } from '@mui/material';
+import { Card } from '@mui/material';
 import Buttonknow from './components/Buttonknow';
+import TestimonialCard from './components/TestimonialCard';
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
         <p className="mt-2 text-lg font-bold text-red-500">Venha fazer parte da nossa comunidade de campeões!</p>
       </Card>
       <Buttonknow/>
-
+      
       {/* Adicionando a seção de cartões de imagens */}
       <section className="container mx-auto px-6 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -87,17 +88,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <TestimonialCard/>
+     
 
-      {/* <div className="relative w-full h-screen">
-        <Image
-          src="/images/bannerSFundo.png"
-          alt="vitoria"
-          layout="fill"
-          objectFit="contain"
-          className="w-full h-full"
-          unoptimized={true}
-        />
-      </div> */}
+     
+
+
     </>
   );
 }
