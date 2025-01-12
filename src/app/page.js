@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
+import CardGaleria from './components/CardGaleria';
 import MenuPrincipal from './components/MenuPrincipal';
 import { Card } from '@mui/material';
 import Buttonknow from './components/Buttonknow';
@@ -23,76 +23,8 @@ export default function Home() {
       </Card>
       <Buttonknow/>
       
-      {/* Adicionando a seção de cartões de imagens */}
-      <section className="container mx-auto px-6 py-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Cartão de imagem 1 */}
-          <div className="relative w-full h-48">
-            <Image
-              src="/images/atletas2-ring.jpeg"
-              alt="Imagem 1"
-              layout="fill"
-              objectFit="contain"
-              className="w-full h-full"
-            />
-          </div>
-          {/* Cartão de imagem 2 */}
-          <div className="relative w-full h-48">
-            <Image
-              src="/images/atletas2-ring.jpeg"
-              alt="Imagem 2"
-              layout="fill"
-              objectFit="contain"
-              className="w-full h-full"
-            />
-          </div>
-          {/* Cartão de imagem 3 */}
-          <div className="relative w-full h-48">
-            <Image
-              src="/images/atletas2-ring.jpeg"
-              alt="Imagem 3"
-              layout="fill"
-              objectFit="contain"
-              className="w-full h-full"
-            />
-          </div>
-          {/* Cartão de imagem 4 */}
-          <div className="relative w-full h-48">
-            <Image
-              src="/images/atletas2-ring.jpeg"
-              alt="Imagem 4"
-              layout="fill"
-              objectFit="contain"
-              className="w-full h-full"
-            />
-          </div>
-          {/* Cartão de imagem 5 */}
-          <div className="relative w-full h-48">
-            <Image
-              src="/images/atletas2-ring.jpeg"
-              alt="Imagem 5"
-              layout="fill"
-              objectFit="contain"
-              className="w-full h-full"
-            />
-          </div>
-          {/* Cartão de imagem 6 */}
-          <div className="relative w-full h-48">
-            <Image
-              src="/images/atletas2-ring.jpeg"
-              alt="Imagem 6"
-              layout="fill"
-              objectFit="contain"
-              className="w-full h-full"
-            />
-          </div>
-        </div>
-      </section>
+      <CardGaleria/>
       <TestimonialCard/>
-     
-
-     
-
 
     </>
   );
