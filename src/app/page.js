@@ -19,7 +19,7 @@ export default function Home() {
            nosso clube oferece um ambiente acolhedor e desafiador para todos os níveis.
           </p>
         <hr className="border-t-6 border-gray-300 w-3/4 mx-auto my-4" /> {/* Linha suave com comprimento aumentado */}
-        <p className="mt-2 text-lg font-bold text-red-500">Venha fazer parte da nossa comunidade de campeões!</p>
+        <p className="mt-2 text-lg font-bold text-red-500">Venha fazer parte da nossa equipe de campeões!</p>
       </Card>
       <Buttonknow/>
       

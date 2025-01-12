@@ -16,7 +16,7 @@ export default function CardGaleria() {
       <section className="container mx-auto px-6 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Cartão de imagem 1 */}
-          <div className="relative w-full h-48">
+          <div className="relative w-full h-80">
             <Image
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 1"
@@ -24,16 +24,16 @@ export default function CardGaleria() {
               objectFit="contain"
               className="w-full h-full"
             />
-            <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
+            <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50">
               <CardContent>
-                <Typography variant="body2" component="p">
-                  Atletas em Ação
+                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
+                 Aulas Particulares
                 </Typography>
               </CardContent>
             </Card>
           </div>
           {/* Cartão de imagem 2 */}
-          <div className="relative w-full h-48">
+          <div className="relative w-full h-80">
             <Image
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 2"
@@ -43,14 +43,14 @@ export default function CardGaleria() {
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
               <CardContent>
-                <Typography variant="body2" component="p">
-                  Treinamento Intenso
+                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
+                  Aulas de Boxe
                 </Typography>
               </CardContent>
             </Card>
           </div>
           {/* Cartão de imagem 3 */}
-          <div className="relative w-full h-48">
+          <div className="relative w-full h-80">
             <Image
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 3"
@@ -60,14 +60,14 @@ export default function CardGaleria() {
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
               <CardContent>
-                <Typography variant="body2" component="p">
-                  Conquistas e Vitórias
+                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
+                  Sparring
                 </Typography>
               </CardContent>
             </Card>
           </div>
           {/* Cartão de imagem 4 */}
-          <div className="relative w-full h-48">
+          <div className="relative w-full h-80">
             <Image
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 4"
@@ -77,14 +77,14 @@ export default function CardGaleria() {
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
               <CardContent>
-                <Typography variant="body2" component="p">
-                  Dedicação e Esforço
+                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
+                  Eventos
                 </Typography>
               </CardContent>
             </Card>
           </div>
           {/* Cartão de imagem 5 */}
-          <div className="relative w-full h-48">
+          <div className="relative w-full h-80">
             <Image
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 5"
@@ -94,14 +94,14 @@ export default function CardGaleria() {
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
               <CardContent>
-                <Typography variant="body2" component="p">
-                  Treinamento em Grupo
+                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
+                  Vitórias
                 </Typography>
               </CardContent>
             </Card>
           </div>
           {/* Cartão de imagem 6 */}
-          <div className="relative w-full h-48">
+          <div className="relative w-full h-80">
             <Image
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 6"
@@ -111,8 +111,8 @@ export default function CardGaleria() {
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
               <CardContent>
-                <Typography variant="body2" component="p">
-                  Superação Pessoal
+                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
+                  Mídia social
                 </Typography>
               </CardContent>
             </Card>
