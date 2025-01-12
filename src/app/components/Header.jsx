@@ -16,8 +16,9 @@ const Header = () => {
         <div  className="hidden md:flex space-x-6 text-white font-bold justify-center flex-grow">
           <Link  href="/" className="hover:text-red-700"><span className="font-bold">HOME</span></Link>
           <Link href="/sobre" className="hover:text-red-700"><span className="font-bold">SOBRE</span></Link>
-          <Link href="/aulas" className="hover:text-red-700"><span className="font-bold">AULAS</span></Link>
+          <Link href="/aulas" className="hover:text-red-700"><span className="font-bold">HORÁRIOS</span></Link>
           <Link href="/treinadores" className="hover:text-red-700"><span className="font-bold">TREINADORES</span></Link>
+          <Link href="/eventos" className="hover:text-red-700"><span className="font-bold">EVENTOS</span></Link>
           <Link href="/contato" className="hover:text-red-700"><span className="font-bold">CONTATO</span></Link>
         </div>
         <div className="md:hidden text-blue-900 ml-auto cursor:pointer" onClick={toggleSidebar}>

@@ -2,7 +2,7 @@
 import React from "react";
 
 
-export default function Aulas() {
+export default function Horarios() {
 
   return (
     <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden ">

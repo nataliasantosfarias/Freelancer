@@ -86,7 +86,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="relative w-full h-screen">
+      {/* <div className="relative w-full h-screen">
         <Image
           src="/images/bannerSFundo.png"
           alt="vitoria"
@@ -95,7 +95,7 @@ export default function Home() {
           className="w-full h-full"
           unoptimized={true}
         />
-      </div>
+      </div> */}
     </>
   );
 }
