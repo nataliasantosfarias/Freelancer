@@ -1,28 +1,18 @@
 import React from 'react';
 import Image from 'next/image';
-
+import MenuPrincipal from './components/MenuPrincipal';
 
 export default function Home() {
   return (
     <>
-    
-      {/* Adicionando a imagem principal após o Header */}
-      <div className="relative h-screen mt-40">
-        <Image
-          src="/images/bannerSemFundoPP.jpg"
-          alt='Boxe'
-          layout="fill"
-          objectFit="contain" // Ajuste para manter a imagem visível
-          className="w-full h-fullbg-fixed "
-        />
-      </div>
+      <MenuPrincipal/> {/* Adicionando o componente MenuPrincipal */}
 
       {/* --------------Div principal------------------ */}
-      <main className="flex-grow container mx-auto mt-40 p-20 flex flex-col items-center md:items-center">
+      <section className="flex-grow container mx-auto mt-40 p-20 flex flex-col items-center md:items-center">
         <h1 className="text-4xl font-bold text-gray-900">Bem-vindo ao Clube Nocaute Boxe</h1>
         <p className="mt-4 text-lg text-red-500">Transforme sua vida com o poder do Boxe.</p>
         <p className="mt-4 text-lg font-bold text-gray-900">No Clube Nocaute Boxe, somos referência no esporte e na transformação Social!</p>
-      </main>
+      </section>
 
       {/* Adicionando a seção de cartões de imagens */}
       <section className="container mx-auto px-6 py-8">
@@ -92,7 +82,7 @@ export default function Home() {
 
       <div className="relative w-full h-screen">
         <Image
-          src="/images/victoria.jpeg"
+          src="/images/bannerSFundo.png"
           alt="vitoria"
           layout="fill"
           objectFit="contain" // Ajuste para manter a imagem visível

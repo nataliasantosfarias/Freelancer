@@ -1,7 +1,5 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import MenuPrincipal from './components/MenuPrincipal';
-// import MenuPrincipal from './components/MenuPrincipal';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -25,11 +23,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-br">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <MenuPrincipal/>
+        
         {/* <MenuPrincipal/> */}
         <Header/>
         {children}
