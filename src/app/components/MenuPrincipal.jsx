@@ -13,7 +13,7 @@ export default function MenuPrincipal() {
       />
       <div className="absolute bottom-0 z-20 w-full flex justify-center"> {/* Ajuste para posicionar a imagem no final */}
         <Image
-          src="/images/VictoriaSFundoBanner.png"
+          src="/images/victoriaSFundoBanner.png"
           alt="imagem sem fundo do banner"
           layout="intrinsic"
           width={600} // Aumentando a largura para melhorar a qualidade
