@@ -1,18 +1,24 @@
+'use client';
 import React from 'react';
 import Image from 'next/image';
 import MenuPrincipal from './components/MenuPrincipal';
+import { Card } from '@mui/material';
 
 export default function Home() {
   return (
     <>
-      <MenuPrincipal/> {/* Adicionando o componente MenuPrincipal */}
-
-      {/* --------------Div principal------------------ */}
-      <section className="flex-grow container mx-auto mt-40 p-20 flex flex-col items-center md:items-center">
-        <h1 className="text-4xl font-bold text-gray-900">Bem-vindo ao Clube Nocaute Boxe</h1>
-        <p className="mt-4 text-lg text-red-500">Transforme sua vida com o poder do Boxe.</p>
-        <p className="mt-4 text-lg font-bold text-gray-900">No Clube Nocaute Boxe, somos referência no esporte e na transformação Social!</p>
-      </section>
+      <MenuPrincipal /> {/* Adicionando o componente MenuPrincipal */}
+      <Card className="text-center w-full p-6 mt-20"> {/* Ajuste da margem superior */}
+        <h1 className="text-3xl font-bold text-black">
+          Bem-vindo a Nocaute Clube Boxe
+        </h1>
+          <p className="text-lg text-gray-500 mt-4">Aqui na <b>Nocaute Clube Boxe</b>, nossa missão é transformar vidas através do poder do boxe.
+           Seja você um iniciante que busca melhorar a forma física ou um atleta que deseja aprimorar suas habilidades,
+           nosso clube oferece um ambiente acolhedor e desafiador para todos os níveis.
+          </p>
+        <hr className="border-t-6 border-gray-300 w-3/4 mx-auto my-4" /> {/* Linha suave com comprimento aumentado */}
+        <p className="mt-2 text-lg text-red-500">Venha fazer parte da nossa comunidade de campeões!</p>
+      </Card>
 
       {/* Adicionando a seção de cartões de imagens */}
       <section className="container mx-auto px-6 py-8">
@@ -23,7 +29,7 @@ export default function Home() {
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 1"
               layout="fill"
-              objectFit="contain" // Ajuste para manter a imagem visível
+              objectFit="contain"
               className="w-full h-full"
             />
           </div>
@@ -33,7 +39,7 @@ export default function Home() {
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 2"
               layout="fill"
-              objectFit="contain" // Ajuste para manter a imagem visível
+              objectFit="contain"
               className="w-full h-full"
             />
           </div>
@@ -43,7 +49,7 @@ export default function Home() {
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 3"
               layout="fill"
-              objectFit="contain" // Ajuste para manter a imagem visível
+              objectFit="contain"
               className="w-full h-full"
             />
           </div>
@@ -53,7 +59,7 @@ export default function Home() {
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 4"
               layout="fill"
-              objectFit="contain" // Ajuste para manter a imagem visível
+              objectFit="contain"
               className="w-full h-full"
             />
           </div>
@@ -63,7 +69,7 @@ export default function Home() {
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 5"
               layout="fill"
-              objectFit="contain" // Ajuste para manter a imagem visível
+              objectFit="contain"
               className="w-full h-full"
             />
           </div>
@@ -73,7 +79,7 @@ export default function Home() {
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 6"
               layout="fill"
-              objectFit="contain" // Ajuste para manter a imagem visível
+              objectFit="contain"
               className="w-full h-full"
             />
           </div>
@@ -85,7 +91,7 @@ export default function Home() {
           src="/images/bannerSFundo.png"
           alt="vitoria"
           layout="fill"
-          objectFit="contain" // Ajuste para manter a imagem visível
+          objectFit="contain"
           className="w-full h-full"
         />
       </div>
