@@ -14,7 +14,7 @@ export default function MultiActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="/images/bannerSemFundoPP.jpg"
+          image="/images/ProjetoSocialAcademia.jpeg"
           alt="pica"
         />
         <CardContent>
