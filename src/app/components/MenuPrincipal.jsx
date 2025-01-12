@@ -32,11 +32,11 @@ export default function MenuPrincipal() {
             className="object-contain md:w-80 md:h-64 mt-3" // Ajuste responsivo
           />
         </div>
-        <text className="text-center md:hidden w-full p-6 mt-[-160px]"> {/* Ajuste da margem superior */}
+        <div className="text-center md:hidden w-full p-6 mt-[-160px]"> {/* Ajuste da margem superior */}
           <h1 className="text-2xl font-bold text-white">Nocaute Clube Boxe</h1>
           <hr className="border-t-6 border-gray-300 w-3/4 mx-auto my-4" /> {/* Linha suave com comprimento aumentado */}
           <p className="mt-2 text-lg text-red-500">Transforme sua vida com o poder do Boxe.</p>
-        </text>
+        </div>
       </div>
     </div>
   );
