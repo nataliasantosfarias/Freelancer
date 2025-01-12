@@ -21,13 +21,16 @@ export default function CardGaleria() {
               src="/images/atletas2-ring.jpeg"
               alt="Imagem 1"
               layout="fill"
-              objectFit="contain"
+              objectFit="cover"
               className="w-full h-full"
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50">
               <CardContent>
-                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
-                 Aulas Particulares
+                <Typography 
+                    variant="h6"
+                    component="p"
+                    className="text-center text-red-500 font-bold">
+                    Aulas de Boxe
                 </Typography>
               </CardContent>
             </Card>
@@ -35,16 +38,19 @@ export default function CardGaleria() {
           {/* Cartão de imagem 2 */}
           <div className="relative w-full h-80">
             <Image
-              src="/images/atletas2-ring.jpeg"
+              src="/images/ProjetoSocialAcademia.jpeg"
               alt="Imagem 2"
               layout="fill"
-              objectFit="contain"
+              objectFit="cover"
               className="w-full h-full"
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
               <CardContent>
-                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
-                  Aulas de Boxe
+                <Typography 
+                    variant="h6" 
+                    component="p" 
+                    className="text-center text-red-500 font-bold">
+                    Projeto Social
                 </Typography>
               </CardContent>
             </Card>
@@ -52,16 +58,19 @@ export default function CardGaleria() {
           {/* Cartão de imagem 3 */}
           <div className="relative w-full h-80">
             <Image
-              src="/images/atletas2-ring.jpeg"
+              src="/images/lutaatleta.jpeg"
               alt="Imagem 3"
               layout="fill"
-              objectFit="contain"
+              objectFit="cover"
               className="w-full h-full"
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
               <CardContent>
-                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
-                  Sparring
+                <Typography 
+                    variant="h6" 
+                    component="p" 
+                    className="text-center text-red-500 font-bold">
+                    Sparring
                 </Typography>
               </CardContent>
             </Card>
@@ -69,16 +78,19 @@ export default function CardGaleria() {
           {/* Cartão de imagem 4 */}
           <div className="relative w-full h-80">
             <Image
-              src="/images/atletas2-ring.jpeg"
+              src="/images/SegunadaCopaBannerCfundo.jpeg"
               alt="Imagem 4"
               layout="fill"
-              objectFit="contain"
+              objectFit="cover"
               className="w-full h-full"
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
               <CardContent>
-                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
-                  Eventos
+                <Typography
+                    variant="h6"
+                    component="p"
+                    className="text-center text-red-500 font-bold">
+                    Eventos
                 </Typography>
               </CardContent>
             </Card>
@@ -86,16 +98,18 @@ export default function CardGaleria() {
           {/* Cartão de imagem 5 */}
           <div className="relative w-full h-80">
             <Image
-              src="/images/atletas2-ring.jpeg"
+              src="/images/victoria.jpeg"
               alt="Imagem 5"
               layout="fill"
-              objectFit="contain"
+              objectFit="cover"
               className="w-full h-full"
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
               <CardContent>
-                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
-                  Vitórias
+                <Typography variant="h6"
+                    component="p"
+                    className="text-center text-red-500 font-bold">
+                    Vitórias
                 </Typography>
               </CardContent>
             </Card>
@@ -103,16 +117,18 @@ export default function CardGaleria() {
           {/* Cartão de imagem 6 */}
           <div className="relative w-full h-80">
             <Image
-              src="/images/atletas2-ring.jpeg"
+              src="/images/Entrevista.jpeg"
               alt="Imagem 6"
               layout="fill"
-              objectFit="contain"
+              objectFit="cover"
               className="w-full h-full"
             />
             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
               <CardContent>
-                <Typography variant="h6" component="p" className="text-center text-red-500 font-bold">
-                  Mídia social
+                <Typography variant="h6"
+                    component="p"
+                    className="text-center text-red-500 font-bold">
+                    Destaques e Entrevistas
                 </Typography>
               </CardContent>
             </Card>
