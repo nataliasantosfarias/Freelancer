@@ -93,6 +93,7 @@ export default function Home() {
           layout="fill"
           objectFit="contain"
           className="w-full h-full"
+          unoptimized={true}
         />
       </div>
     </>

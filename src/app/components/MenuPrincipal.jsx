@@ -19,6 +19,7 @@ export default function MenuPrincipal() {
           width={600} // Aumentando a largura para melhorar a qualidade
           height={400} // Aumentando a altura para melhorar a qualidade
           className="object-contain"
+          unoptimized={true}
         />
       </div>
       <div className="relative z-30 flex flex-col items-center justify-center h-full text-white p-6">
