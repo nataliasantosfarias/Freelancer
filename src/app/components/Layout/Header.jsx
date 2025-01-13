@@ -20,7 +20,7 @@ const Header = () => {
                 <Link key={link.href} href={link.href} className="hover:text-red-700"><span className="font-bold">{link.name}</span></Link>
               ))
           }
-        </div>
+        </div> {/* mapeando os links */}
         <div className="md:hidden text-blue-900 ml-auto cursor:pointer" onClick={toggleSidebar}>
           {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </div>
@@ -31,7 +31,7 @@ const Header = () => {
               menuLinks.map( link => ( 
                 <Link style={{ zIndex: 9999999 }} href={link.href}  key={link.href} className="hover:text-red-700" onClick={toggleSidebar}><span className="font-bold">{link.name}</span></Link>
               ))
-          }
+          }{/* mapeando os links em telas menorestornando-se side bar*/}
           <button onClick={toggleSidebar} className="text-white mt-4">
             <FaTimes size={24}  />
           </button>
@@ -45,4 +45,4 @@ export default Header;
 // Criar um array contendo[
 //   título  do  link
 //    href ]
-//  colocar ele em pasta separada e onde usar essse links importoo component
+//  colocar ele em pasta separada e onde usar essse links importo component
