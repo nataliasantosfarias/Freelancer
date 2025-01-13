@@ -36,16 +36,48 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
+# most used commits:
 
-Dependençias do projeto:
-Next;
-React;  
-Node;
+DOCS:
 
+
+     en - DOCS: adds explanatory comments in the code for better understanding.
+
+     pt-br - DOCS: adiciona comentários explicativos no código para melhor compreensão.
+---------------------------------------------------------------------------
+FEAT: 
+
+---------------------------------------------------------------------------
+
+FIX:
+
+---------------------------------------------------------------------------
+BUG:
+
+---------------------------------------------------------------------------
+
+STYLE: 
+
+---------------------------------------------------------------------------
+
+
+# Dependençias do projeto:
+
+* Next;
+
+* React;  
+
+* Node.
+
+---------------------------------------------------------------------------
 bibliotecas:
-Material UI;
-React Grid Gallery;
-Tailwindo;
 
+* Material UI;
+* React Grid Gallery;
+* Tailwindo;
+* next-i18next (lib-traduzir a página para o inglês).
+---------------------------------------------------------------------------
 Possível implementação: 
+
 Payload;
+Seu uso se deve a necessidade de...continue
