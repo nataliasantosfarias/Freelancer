@@ -11,10 +11,13 @@ export default function TestimonialCard() {
             <img className="block mx-auto sm:mx-0 sm:flex-shrink-0 h-24 w-24 rounded-full object-cover" src="/images/GalleryTestimonialCard/nati.jpeg" alt="natalia depoimento" />
             <div className="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">
               <p className="text-xl leading-tight">Natália Farias Santos</p>
-              <p className="text-sm leading-tight text-gray-600">Aluno Satisfeito</p>
+              <p className="text-sm leading-tight text-gray-600">Aluna Satisfeito</p>
               <p className="mt-2 text-gray-600">
                 <span className="text-2xl text-blue-600">“</span>
-                A Nocaute mudou minha vida através do Boxe! Os treinadores são incríveis e o ambiente é muito acolhedor. Recomendo a todos!
+                A Nocaute mudou minha vida através do Boxe!
+                Ela é mais que um um projeto social, é uma família!Minha jornada com a Nocaute tem sido transformadora.
+                Obrigada aos treinadores dedicados e ao ambiente positivo.
+                Recomendo essa experiência a todos!
                 <span className="text-2xl text-blue-600">”</span>
               </p>
               <div className="flex justify-center sm:justify-start mt-2">
@@ -35,7 +38,8 @@ export default function TestimonialCard() {
               <p className="text-sm leading-tight text-gray-600">Aluno Satisfeito</p>
               <p className="mt-2 text-gray-600">
                 <span className="text-2xl text-blue-600">“</span>
-                Desde que comecei a treinar na Nocaute a minha vida mudou completamente. Sou mais confiante, saudável e determinado. Vocês sempre me motivam a dar o meu melhor. Obrigado!
+                Desde que comecei a treinar na Nocaute a minha vida mudou completamente. Sou mais confiante, saudável e determinado. Vocês sempre me motivam a dar o meu melhor.
+                Gratidão à Nocaute por me ajudar a alcançar meus objetivos através do projeto social junto ao boxe, muito Obrigado!
                 <span className="text-2xl text-blue-600">”</span>
               </p>
               <div className="flex justify-center sm:justify-start mt-2">
@@ -56,7 +60,10 @@ export default function TestimonialCard() {
               <p className="text-sm leading-tight text-gray-600">Aluno Satisfeito</p>
               <p className="mt-2 text-gray-600">
                 <span className="text-2xl text-blue-600">“</span>
-                Eu nunca imaginei que o boxe poderia ser tão cativante, estou muito surpreso. O ambiente é acolhedor e todos são muito amigáveis. Estou adorando cada sessão e já vejo grandes melhorias em minha forma física, inclusive estou pensando em competir em breve!
+                Eu nunca imaginei que o boxe poderia ser tão cativante, estou muito surpreso.
+                O ambiente é acolhedor e todos são muito amigáveis.
+                Ter a oportunidade de praticar um esporte está sendo uma grande conquita não só para mim, mas também para toda a comunidade!
+                Estou adorando cada sessão e já vejo grandes melhorias em minha forma física, inclusive estou pensando em competir em breve!
                 <span className="text-2xl  text-blue-600">”</span>
               </p>
               <div className="flex justify-center sm:justify-start mt-2">
