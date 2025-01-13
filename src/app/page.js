@@ -24,7 +24,7 @@ export default function Home() {
       </Card>
       <Buttonknow/>
       
-      <CardGaleria/> geleria tela principal
+      <CardGaleria/> 
  
       <TestimonialCard/>
     </>
