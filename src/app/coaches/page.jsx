@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
 
-export default function Treinadores() {
+export default function Coaches() {
 
     return (
         <Card sx={{ maxWidth: 345 }}>

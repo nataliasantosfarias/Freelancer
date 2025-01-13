@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { menuLinks } from "@/app/constants";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,13 +14,12 @@ const Header = () => {
   return (
     <header style={{ zIndex: 9999 }} className="p-6 fixed top-0 left-0 w-full text-black">
       <div className="container mx-auto flex justify-between items-center">
-        <div  className="hidden md:flex space-x-6 text-white font-bold justify-center flex-grow">
-          <Link  href="/" className="hover:text-red-700"><span className="font-bold">HOME</span></Link>
-          <Link href="/sobre" className="hover:text-red-700"><span className="font-bold">SOBRE</span></Link>
-          <Link href="/aulas" className="hover:text-red-700"><span className="font-bold">HORÁRIOS</span></Link>
-          <Link href="/treinadores" className="hover:text-red-700"><span className="font-bold">TREINADORES</span></Link>
-          <Link href="/eventos" className="hover:text-red-700"><span className="font-bold">EVENTOS</span></Link>
-          <Link href="/contato" className="hover:text-red-700"><span className="font-bold">CONTATO</span></Link>
+        <div className="hidden md:flex space-x-6 text-white font-bold justify-center flex-grow">
+          {
+              menuLinks.map( link => ( 
+                <Link key={link.href} href={link.href} className="hover:text-red-700"><span className="font-bold">{link.name}</span></Link>
+              ))
+          }
         </div>
         <div className="md:hidden text-blue-900 ml-auto cursor:pointer" onClick={toggleSidebar}>
           {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
@@ -27,13 +27,13 @@ const Header = () => {
       </div>
       {isOpen && (
         <div className="fixed inset-0 bg-blue-900 bg-opacity-90 z-20 flex flex-col items-center justify-center space-y-6 text-white font-bold">
-          <Link  style={{ zIndex: 9999999}} href="/" className="hover:text-red-700" onClick={toggleSidebar}><span className="font-bold">HOME</span></Link>
-          <Link href="/sobre" className="hover:text-red-700" onClick={toggleSidebar}><span className="font-bold">SOBRE</span></Link>
-          <Link href="/aulas" className="hover:text-red-700" onClick={toggleSidebar}><span className="font-bold">AULAS</span></Link>
-          <Link href="/treinadores" className="hover:text-red-700" onClick={toggleSidebar}><span className="font-bold">TREINADORES</span></Link>
-          <Link href="/contato" className="hover:text-red-700" onClick={toggleSidebar}><span className="font-bold">CONTATO</span></Link>
+          {
+              menuLinks.map( link => ( 
+                <Link style={{ zIndex: 9999999 }} href={link.href}  key={link.href} className="hover:text-red-700" onClick={toggleSidebar}><span className="font-bold">{link.name}</span></Link>
+              ))
+          }
           <button onClick={toggleSidebar} className="text-white mt-4">
-            <FaTimes size={24} />
+            <FaTimes size={24}  />
           </button>
         </div>
       )}
@@ -42,3 +42,7 @@ const Header = () => {
 };
 
 export default Header;
+// Criar um array contendo[
+//   título  do  link
+//    href ]
+//  colocar ele em pasta separada e onde usar essse links importoo component

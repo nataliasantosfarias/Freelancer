@@ -2,7 +2,7 @@
 import React from "react";
 
 
-export default function Contato() {
+export default function Contact() {
 
   return (
     <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
