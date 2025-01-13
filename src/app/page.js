@@ -1,9 +1,10 @@
 'use client';
 import React from 'react';
-import CardGaleria from './components/CardGaleria';
-import MenuPrincipal from './components/MenuPrincipal';
+import MenuPrincipal from './components/MainMenu';
 import { Card } from '@mui/material';
-import Buttonknow from './components/Buttonknow';
+import Buttonknow from './components/Layout/Buttonknow';
+// import CardGaleria from './components/CardGallery';
+
 import TestimonialCard from './components/TestimonialCard';
 
 export default function Home() {
@@ -23,9 +24,9 @@ export default function Home() {
       </Card>
       <Buttonknow/>
       
-      <CardGaleria/>
+      {/* <CardGaleria/> geleria tela principal */}
+ 
       <TestimonialCard/>
-
     </>
   );
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 
 export default function MenuPrincipal() {
+
+  
   return (
     <div className="relative w-full h-screen">
       <Image
