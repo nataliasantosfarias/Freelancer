@@ -1,143 +1,3 @@
-// import React from "react";
-// import Image from 'next/image';
-// import { Card, CardContent, Typography } from '@mui/material';
-
-// export default function CardGaleria() {
-//   return (
-//     <>
-//       <div className="px-6"> {/* Adicionando padding */}
-//         <h1 className="text-center text-3xl font-bold mb-8 text-blue-700 mt-10">Faça parte do time dos campeões</h1>
-//         <p className="text-center text-lg text-gray-500 mt-4">
-//           Veja nossos atletas em ação,
-//           os treinamentos intensos e as conquistas que celebramos juntos.
-//           Inspire-se e venha fazer parte desta jornada!
-//         </p>
-//       </div>
-//       <section className="container mx-auto px-6 py-8">
-//         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-//           {/* Cartão de imagem 1 */}
-//           <div className="relative w-full h-80">
-//             {/*  */}
-//               src="/images/atletas2-ring.jpeg"
-//               alt="Imagem 1"
-//               layout="fill"
-//               objectFit="cover"
-//               className="w-full h-full"
-//             />
-//             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50">
-//               <CardContent>
-//                 <Typography 
-//                     variant="h6"
-//                     component="p"
-//                     className="text-center text-red-500 font-bold">
-//                     Aulas de Boxe
-//                 </Typography>
-//               </CardContent>
-//             </Card>
-//           </div>
-//           {/* Cartão de imagem 2 */}
-//           <div className="relative w-full h-80">
-//             <Image
-//               src="/images/ProjetoSocialAcademia.jpeg"
-//               alt="Imagem 2"
-//               layout="fill"
-//               objectFit="cover"
-//               className="w-full h-full"
-//             />
-//             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
-//               <CardContent>
-//                 <Typography 
-//                     variant="h6" 
-//                     component="p" 
-//                     className="text-center text-red-500 font-bold">
-//                     Projeto Social
-//                 </Typography>
-//               </CardContent>
-//             </Card>
-//           </div>
-//           {/* Cartão de imagem 3 */}
-//           <div className="relative w-full h-80">
-//             <Image
-//               src="/images/lutaatleta.jpeg"
-//               alt="Imagem 3"
-//               layout="fill"
-//               objectFit="cover"
-//               className="w-full h-full"
-//             />
-//             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
-//               <CardContent>
-//                 <Typography 
-//                     variant="h6" 
-//                     component="p" 
-//                     className="text-center text-red-500 font-bold">
-//                     Sparring
-//                 </Typography>
-//               </CardContent>
-//             </Card>
-//           </div>
-//           {/* Cartão de imagem 4 */}
-//           <div className="relative w-full h-80">
-//             <Image
-//               src="/images/SegunadaCopaBannerCfundo.jpeg"
-//               alt="Imagem 4"
-//               layout="fill"
-//               objectFit="cover"
-//               className="w-full h-full"
-//             />
-//             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
-//               <CardContent>
-//                 <Typography
-//                     variant="h6"
-//                     component="p"
-//                     className="text-center text-red-500 font-bold">
-//                     Eventos
-//                 </Typography>
-//               </CardContent>
-//             </Card>
-//           </div>
-//           {/* Cartão de imagem 5 */}
-//           <div className="relative w-full h-80">
-//             <Image
-//               src="/images/victoria.jpeg"
-//               alt="Imagem 5"
-//               layout="fill"
-//               objectFit="cover"
-//               className="w-full h-full"
-//             />
-//             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
-//               <CardContent>
-//                 <Typography variant="h6"
-//                     component="p"
-//                     className="text-center text-red-500 font-bold">
-//                     Vitórias
-//                 </Typography>
-//               </CardContent>
-//             </Card>
-//           </div>
-//           {/* Cartão de imagem 6 */}
-//           <div className="relative w-full h-80">
-//             <Image
-//               src="/images/Entrevista.jpeg"
-//               alt="Imagem 6"
-//               layout="fill"
-//               objectFit="cover"
-//               className="w-full h-full"
-//             />
-//             <Card className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white">
-//               <CardContent>
-//                 <Typography variant="h6"
-//                     component="p"
-//                     className="text-center text-red-500 font-bold">
-//                     Destaques e Entrevistas
-//                 </Typography>
-//               </CardContent>
-//             </Card>
-//           </div>
-//         </div>
-//       </section>
-//     </>
-//   );
-// }
 'use client'
 
 import { useState } from 'react'
@@ -145,11 +5,19 @@ import Image from 'next/image'
 
 // This would typically come from an API or database
 const images = [
-  { id: 1, src: '/images/alisson.jpeg', alt: 'Image 1' },
-  { id: 2, src: '/images/alisson.jpeg', alt: 'Image 2' },
-  { id: 3, src: '/images/alisson.jpeg', alt: 'Image 3' },
-  { id: 4, src: '/images/alisson.jpeg', alt: 'Image 4' },
-  { id: 5, src: '/images/alisson.jpeg', alt: 'Image 5' },
+  { id: 1, src: '/images/GaleriaPrincipal/atletas-suasmedalhas-praca.jpeg', alt: 'Victor e Victoria segunda copa nocaute, entrada da luta' },
+  { id: 2, src: '/images/GaleriaPrincipal/VictorVictoriaCopa2.jpg', alt: 'Victor e Victoria na segunda copa nocaute' },
+  { id: 3, src: '/images/GaleriaPrincipal/Entrevista.jpeg', alt: 'Entrevista com os atletas' },
+  { id: 4, src: '/images/GaleriaPrincipal/samuel1.jpg', alt: 'Samuel em ação no ringue' },
+  { id: 5, src: '/images/GaleriaPrincipal/ProjetoSocialAcademia.jpeg', alt: 'Projeto social na academia' },
+  { id: 6, src: '/images/GaleriaPrincipal/samuelNocaulte2.jpg', alt: 'Samuel nocauteando o adversário' },
+  { id: 7, src: '/images/GaleriaPrincipal/victor-atletas.jpeg', alt: 'Victor com os atletas' },
+  { id: 8, src: '/images/GaleriaPrincipal/COPA_NOCAUTE2-Samara.jpg', alt: 'Victor no corner com Samara atleta' },
+  { id: 9, src: '/images/GaleriaPrincipal/img-atleta-ring.png', alt: 'Atleta no ringue' },
+  { id: 10, src: '/images/GaleriaPrincipal/victor-carlos5.jpeg', alt: 'Victor e Carlos na segunda copa nocaute' },
+  { id: 12, src: '/images/GaleriaPrincipal/COPA_NOCAUTE2-Victoria.jpg', alt: 'Victoria na segunda copa nocaute' },
+  { id: 13, src: '/images/GaleriaPrincipal/COPA_NOCAUTE2-Carlos.jpg', alt: 'Carlos na segunda copa nocaute' },
+  { id: 14, src: '/images/GaleriaPrincipal/atletas2-ring.jpeg', alt: 'Lutas dos atletas no ringue' },
 ]
 
 export default function ImageGallery() {
@@ -164,21 +32,21 @@ export default function ImageGallery() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Image Gallery</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">Conheça o nosso Projeto Social</h1>
       
       {/* Main Image */}
-      <div className="mb-4 cursor-pointer" onClick={() => openLightbox(mainImage)}>
+      <div className="mb-4 cursor-pointer flex justify-center" onClick={() => openLightbox(mainImage)}>
         <Image
           src={mainImage.src}
           alt={mainImage.alt}
-         width={1200}
-              height={800}
-          className="w-[600px] h-auto rounded-lg shadow-md"
+          width={1200}
+          height={800}
+          className="w-full max-w-4xl h-auto rounded-lg shadow-md"
         />
       </div>
-{/*       
+      
       {/* Thumbnails */}
-      <div className="flex space-x-2 overflow-x-auto pb-2">
+      <div className="flex space-x-2 overflow-x-auto pb-2 justify-center">
         {images.map((image) => (
           <div
             key={image.id}
@@ -216,4 +84,6 @@ export default function ImageGallery() {
     </div> 
   )
 }
+
+
 

@@ -8,7 +8,7 @@ export default function TestimonialCard() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden my-10">
           <div className="sm:flex sm:items-center px-6 py-4">
-            <img className="block mx-auto sm:mx-0 sm:flex-shrink-0 h-24 w-24 rounded-full object-cover" src="/images/nati.jpeg" alt="natalia depoimento" />
+            <img className="block mx-auto sm:mx-0 sm:flex-shrink-0 h-24 w-24 rounded-full object-cover" src="/images/GalleryTestimonialCard/nati.jpeg" alt="natalia depoimento" />
             <div className="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">
               <p className="text-xl leading-tight">Natália Farias Santos</p>
               <p className="text-sm leading-tight text-gray-600">Aluno Satisfeito</p>
@@ -29,7 +29,7 @@ export default function TestimonialCard() {
         </div>
         <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden my-10">
           <div className="sm:flex sm:items-center px-6 py-4">
-            <img className="block mx-auto sm:mx-0 sm:flex-shrink-0 h-24 w-24 rounded-full object-cover" src="/images/samuel1.jpg" alt="samuel depoimento" />
+            <img className="block mx-auto sm:mx-0 sm:flex-shrink-0 h-24 w-24 rounded-full object-cover" src="/images/GalleryTestimonialCard/samuel1.jpg" alt="samuel depoimento" />
             <div className="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">
               <p className="text-xl leading-tight">Samuel</p>
               <p className="text-sm leading-tight text-gray-600">Aluno Satisfeito</p>
@@ -50,7 +50,7 @@ export default function TestimonialCard() {
         </div>
         <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden my-10">
           <div className="sm:flex sm:items-center px-6 py-4">
-            <img className="block mx-auto sm:mx-0 sm:flex-shrink-0 h-24 w-24 rounded-full object-cover" src="/images/alisson.jpeg" alt="Alisson depoimento" />
+            <img className="block mx-auto sm:mx-0 sm:flex-shrink-0 h-24 w-24 rounded-full object-cover" src="/images/GalleryTestimonialCard/alisson.jpeg" alt="Alisson depoimento" />
             <div className="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">
               <p className="text-xl leading-tight">Alisson Gonçalves Farias</p>
               <p className="text-sm leading-tight text-gray-600">Aluno Satisfeito</p>
