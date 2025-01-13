@@ -80,19 +80,61 @@ export default function About() {
               </Button>
             </CardActions>
           </Card>
-          <Card sx={{ maxWidth: 345, margin: 'auto' }}>
+
+          {/* -------------------------------------------Video Cards--------------------------------------------------- */}
+           
+           <Card sx={{ maxWidth: 345, margin: 'auto' }}>
             <CardActionArea>
-              <CardMedia
-                component="img"
-                height="140"
-                image="/images/ProjetoSocialAcademia.jpeg"
-                alt="Outras imagens" />
+              <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
+               
+                <iframe
+                  src="https://www.youtube.com/embed/hvJ_43ZHXv8"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title="Vídeo exemplo 1"
+                  className="absolute top-0 left-0 w-full h-full"
+                >
+                
+                </iframe>
+              </div>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Projeto Social de Boxe
+                Vídeo exemplo 1
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Nosso projeto social de boxe visa proporcionar oportunidades para jovens de comunidades carentes. Através do esporte, buscamos promover disciplina, saúde e inclusão social, ajudando a transformar vidas e construir um futuro melhor.
+                  Assista ao vídeo para saber mais sobre o nosso projeto social de boxe e como ele está impactando a vida dos jovens.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Saiba Mais
+              </Button>
+            </CardActions>
+          </Card>
+          {/* Video Cards */}
+          <Card sx={{ maxWidth: 345, margin: 'auto' }}>
+            <CardActionArea>
+              <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
+               
+                <iframe
+                  src="https://www.youtube.com/embed/hvJ_43ZHXv8"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title="Vídeo do Projeto Social de Boxe"
+                  className="absolute top-0 left-0 w-full h-full"
+                >
+                
+                </iframe>
+              </div>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Segunda Copa Nocaute de Boxe
+                </Typography>
+                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                  Assista ao vídeo para saber mais sobre o nosso projeto social de boxe e como ele está impactando a vida dos jovens.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -104,39 +146,25 @@ export default function About() {
           </Card>
           <Card sx={{ maxWidth: 345, margin: 'auto' }}>
             <CardActionArea>
-              <CardMedia
-                component="img"
-                height="140"
-                image="/images/ProjetoSocialAcademia.jpeg"
-                alt="Outras imagens" />
+              <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
+                
+                <iframe
+                  src="https://www.youtube.com/embed/hvJ_43ZHXv8"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title="Segundo Vídeo do Projeto Social de Boxe"
+                  className="absolute top-0 left-0 w-full h-full"
+                >
+
+                </iframe>
+              </div>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Projeto Social de Boxe
+                 Vídeo exemplo 2
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Nosso projeto social de boxe visa proporcionar oportunidades para jovens de comunidades carentes. Através do esporte, buscamos promover disciplina, saúde e inclusão social, ajudando a transformar vidas e construir um futuro melhor.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button size="small" color="primary">
-                Saiba Mais
-              </Button>
-            </CardActions>
-          </Card>
-          <Card sx={{ maxWidth: 345, margin: 'auto' }}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="140"
-                image="/images/ProjetoSocialAcademia.jpeg"
-                alt="Outras imagens" />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Projeto Social de Boxe
-                </Typography>
-                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Nosso projeto social de boxe visa proporcionar oportunidades para jovens de comunidades carentes. Através do esporte, buscamos promover disciplina, saúde e inclusão social, ajudando a transformar vidas e construir um futuro melhor.
+                  Assista ao vídeo para saber mais sobre o nosso projeto social de boxe e como ele está impactando a vida dos jovens.
                 </Typography>
               </CardContent>
             </CardActionArea>
