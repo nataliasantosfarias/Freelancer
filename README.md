@@ -81,3 +81,18 @@ Possível implementação:
 
 Payload;
 Seu uso se deve a necessidade de...continue
+
+botão -> Quero marcar a primeira aula
+{
+     Abrir página exolicando o passo a passo para chegar atéo endereço, principais dúvidas, a respeitp de:
+     * vestimenta;
+     * Que idade preico ter para participar;
+     * Preciso paraticar ativvidades fisicas... etc...
+
+} 
+Talvez
+Uma notificação será enviada para o email do ADMIN comunicando a visita do aluno;
+o USER  emitirá algumas informações como :
+* nome;  
+* idade;
+* experiência com exporte;  
