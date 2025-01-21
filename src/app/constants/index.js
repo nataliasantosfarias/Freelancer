@@ -18,6 +18,11 @@ export const menuLinks  = [
     {
         href: "/contact",
         name: "Contato",
+    },
+    {
+        href: "/events",
+        name: "Eventos",
     }
+
 ]
 // Array de textos links/rotas
