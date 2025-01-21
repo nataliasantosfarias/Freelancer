@@ -16,7 +16,7 @@ export default function Coaches() {
               component="img"
               height="140"
               image="/images/victor-carlos5.jpeg"
-              alt="pica"
+              alt="treinadores"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
