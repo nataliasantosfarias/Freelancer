@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import MenuPrincipal from './components/MainMenu';
+import MainMenu from './components/MainMenu';
 import { Card } from '@mui/material';
 import Buttonknow from './components/Layout/Buttonknow';
 import CardGaleria from './components/CardGallery';
@@ -10,7 +10,7 @@ import TestimonialCard from './components/TestimonialCard';
 export default function Home() {
   return (
     <>
-      <MenuPrincipal /> {/* Adicionando o componente MenuPrincipal */}
+      <MainMenu /> {/* Adicionando o componente MenuPrincipal */}
       <Card className="text-center w-full p-6 mt-20"> {/* Ajuste da margem superior */}
         <h1 className="text-3xl font-bold text-black">
           Bem-vindo a Nocaute Clube Boxe
