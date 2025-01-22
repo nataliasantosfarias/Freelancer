@@ -50,6 +50,16 @@ FEAT:
 ---------------------------------------------------------------------------
 
 FIX:
+   
+     en - FIX: Fixing bugs or problems in the code
+     pt-br - FIX: Resolução de bug ou problemas no código
+
+---------------------------------------------------------------------------
+
+REFACOTR: 
+          
+     en - REFACOTR: 
+     pt-br - REFACOTR: Refatoração de código
 
 ---------------------------------------------------------------------------
 BUG:
@@ -74,7 +84,7 @@ bibliotecas:
 
 * Material UI;
 * React Grid Gallery;
-* Tailwindo;
+* Tailwind;
 * next-i18next (lib-traduzir a página para o inglês).
 ---------------------------------------------------------------------------
 Possível implementação: 
