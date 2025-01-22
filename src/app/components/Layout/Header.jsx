@@ -21,7 +21,7 @@ const Header = () => {
               ))
           }
         </div> {/* mapeando os links */}
-        <div className="md:hidden text-blue-900 ml-auto cursor:pointer" onClick={toggleSidebar}>
+        <div className="md:hidden text-white ml-auto cursor:pointer" onClick={toggleSidebar}>
           {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </div>
       </div>
