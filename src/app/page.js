@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold text-black">
           Bem-vindo a Nocaute Clube Boxe
         </h1>
-          <p className="text-lg text-gray-500 mt-4">Aqui na <b>Nocaute Clube Boxe</b>, nossa missão é transformar vidas através do poder do boxe.
+          <p className="text- text-gray-500 mt-4">Aqui na <b>Nocaute Clube Boxe</b>, nossa missão é transformar vidas através do poder do boxe.
            Seja você um iniciante que busca melhorar a forma física ou um atleta que deseja aprimorar suas habilidades,
            nosso clube oferece um ambiente acolhedor e desafiador para todos os níveis.
           </p>
