@@ -5,7 +5,7 @@ export const menuLinks  = [
     },
     {
         href: "/about",
-        name: "Sobre",
+        name: "Projeto Social",
     },
     {
         href: "/class",
@@ -16,13 +16,14 @@ export const menuLinks  = [
         name: "Treinadores",
     },
     {
-        href: "/contact",
-        name: "Contato",
-    },
-    {
         href: "/events",
         name: "Eventos",
+    },
+    {
+        href: "/contact",
+        name: "Contato",
     }
 
 ]
 // Array de textos links/rotas
+
