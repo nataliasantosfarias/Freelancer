@@ -43,9 +43,9 @@ export default function about() {
             </div>
             <div className="text-center w-full p-6 mt-[-160px]"> {/* Ajuste da margem superior */}
               <h1 className="text-3xl font-bold text-white">Sobre</h1>
+              <hr className="border-t-6 border-gray-300 w-1/2 mx-auto my-4" /> {/* Linha suave com comprimento aumentado */}
+              <p className="mt-2 text-lg text-red-500 font-bold">Conheça o Projeto da Nocaute</p>
               
-              <p className="mt-2 text-lg text-red-500 font-bold">Conheça a Nocaute e faça parte do nosso time de campeões </p>
-               <hr className="border-t-6 border-gray-300 w-3/4 mx-auto my-4" /> 
               <p className="mt-2 text-lg text-white font-bold">Torne-se parceiro </p>
               
             </div>
@@ -228,7 +228,7 @@ export default function about() {
         `}
       </script>
    
-    <div className="container mx-auto px-4 py-8 mt-20">
+    <div className="container mx-auto px-4 py-8 mt-8">
       <h1 className="text-3xl font-bold mb-6 text-center">CONHEÇA O NOSSO PROJETO</h1>
       <div className="space-y-6">
         <div className="bg-white p-6 rounded-lg shadow-lg">
