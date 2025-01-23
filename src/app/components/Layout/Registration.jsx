@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import { useRouter } from 'next/navigation';
 
-export default function Buttonknow() {
+export default function Registration() {
   const router = useRouter()
 
   const handleClick = () => {
@@ -17,7 +17,7 @@ export default function Buttonknow() {
           variant="contained"
           onClick={handleClick}
           className="bg-blue-900 text-white hover:bg-blue-700">
-          Conheça o nosso Projeto 
+          Matricule-se Já
         </Button>
       </Stack>
     </div>
