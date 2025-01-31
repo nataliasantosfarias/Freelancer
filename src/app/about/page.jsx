@@ -36,8 +36,8 @@ export default function about() {
            <div className="relative z-30 flex flex-col items-center justify-center h-full text-white p-6">
              <div className="absolute top-0 left-0 m-4">
                <Image
-                 src="/images/LogoRecortada.png"
-                 alt="Logo"
+                 src="/images/MainMenu/LogoRecortada.png"
+                 alt="Imagem da Logo"
                  width={100} // Largura ajustada para mobile
                  height={50} // Altura ajustada para mobile
                  className="object-contain md:w-80 md:h-64 mt-3" // Ajuste responsivo
@@ -50,6 +50,27 @@ export default function about() {
              </div>
            </div>
          </div>
+
+           {/* CARD APRESENTAÇÃO DO PROJETO SOCIAL*/}
+        <Card className="text-center w-full p-6 mt-20"> {/* Ajuste da margem superior */}
+          <h1 className="text-3xl font-bold text-blue-700">
+              Conheça o nosso projeto
+          </h1>
+            <h2 className="text- text-gray-500 mt-4">
+              <b>Iniciado em 2019</b>,
+               nosso projeto social tem como principal objetivo formar atletas para competição de boxe de maneira totalmente gratuita.
+               <p> Acreditamos no poder do esporte como ferramenta de inclusão social,
+               desenvolvimento pessoal e transformação de vidas.</p>
+              
+            </h2>
+          <hr className="border-t-6 border-gray-300 w-3/4 mx-auto my-4" /> {/* Linha suave com comprimento aumentado */}
+            <p className="mt-2 text-lg font-bold text-red-500">Nossa missão é oferecer treinamento de boxe de alta qualidade para jovens e adultos,
+             proporcionando a oportunidade de se tornarem atletas competitivos e, ao mesmo tempo, desenvolver habilidades importantes para a vida,
+              como disciplina, respeito, autocontrole e resiliência.
+            </p>
+        </Card>
+          {/* FIM CARD*/}
+
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <Card sx={{ maxWidth: 345, margin: 'auto' }}>
@@ -58,22 +79,27 @@ export default function about() {
                 component="img"
                 height="140"
                 image="/images/GaleriaPrincipal/ProjetoSocialAcademia.jpeg"
-                alt="Projeto Social de Boxe" />
+                alt="imagem do Projeto Social de Boxe" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Projeto Social de Boxe
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
+                  Treinamento Gratuito
                 </Typography>
-                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Nosso projeto social de boxe visa proporcionar oportunidades para jovens de comunidades carentes. Através do esporte, buscamos promover disciplina, saúde e inclusão social, ajudando a transformar vidas e construir um futuro melhor.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button size="small" color="primary">
+                  <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                    Sonhamos com um futuro onde todos tenham acesso ao esporte, 
+                    independentemente de sua condição socioeconômica, 
+                    e onde o boxe seja uma ferramenta poderosa de mudança social e formação de campeões dentro e fora dos ringues.
+                   </Typography>
+                </CardContent>
+              </CardActionArea>
+             <CardActions>
+             {/*  <Button size="small" color="primary">
                 Saiba Mais
-              </Button>
+              </Button>*/}
             </CardActions>
           </Card>
+
+         {/* FIM CARD IMAGENS*/}
+
           <Card sx={{ maxWidth: 345, margin: 'auto' }}>
             <CardActionArea>
               <CardMedia
@@ -82,8 +108,82 @@ export default function about() {
                 image="/images/GaleriaPrincipal/Entrevista.jpeg"
                 alt="Projeto Social de Boxe" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
                   Projeto Social de Boxe
+                </Typography>
+                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                  Na Nocaute nós reconhecemos a importânçia das atletas femininas no boxe, elas servem como modelo para outras mulheres e meninas.
+                  mostrando que é possível alcançar altos níveis de desempenho em qualquer esporte
+                  Incentivando mais mulheres a se envolverem em atividades físicas e a perseguirem suas paixões,
+                  independentemente das barreiras sociais.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              {/*  <Button size="small" color="primary">
+                Saiba Mais
+              </Button>*/}
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345, margin: 'auto' }}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="140"
+                image="/images/AboutImages/about_samuel.jpg"
+                alt="imagem atleta Samuel Campeonato" />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
+                Treinamento Gratuito
+                </Typography>
+                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                <b></b>Apoio Psicossocial: Além do treinamento físico, oferecemos suporte psicossocial, ajudando os atletas a lidarem com desafios pessoais e profissionais.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+             {/*  <Button size="small" color="primary">
+                Saiba Mais
+              </Button>*/}
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345, margin: 'auto' }}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="140"
+                image="/images/AboutImages/victoria_evento_atleta.jpg"
+                alt="imagem de atleta e Victoria preparação para lua em evento" />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
+                Treinamento Gratuito
+                </Typography>
+                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                 Incentivamos e apoiamos nossos atletas a participarem de competições locais,
+                 regionais e nacionais, 
+                 proporcionando a experiência e a exposição necessárias para se destacarem no esporte.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+             {/*  <Button size="small" color="primary">
+                Saiba Mais
+              </Button>*/}
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345, margin: 'auto' }}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="140"
+                image="/images/AboutImages/about_samuel.jpg"
+                alt="imagem atleta Samuel Campeonato" />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
+                Treinamento Gratuito
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                   Nosso projeto social de boxe visa proporcionar oportunidades para jovens de comunidades carentes. Através do esporte, buscamos promover disciplina, saúde e inclusão social, ajudando a transformar vidas e construir um futuro melhor.
@@ -91,11 +191,12 @@ export default function about() {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+             {/*  <Button size="small" color="primary">
                 Saiba Mais
-              </Button>
+              </Button>*/}
             </CardActions>
           </Card>
+
           <Card sx={{ maxWidth: 345, margin: 'auto' }}>
             <CardActionArea>
               <CardMedia
@@ -104,7 +205,7 @@ export default function about() {
                 image="/images/AboutImages/WhatsApp Image 2025-01-13 at 15.26.28.jpeg"
                 alt="Projeto Social de Boxe" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
                   Projeto Social de Boxe
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
@@ -113,9 +214,9 @@ export default function about() {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+             {/*  <Button size="small" color="primary">
                 Saiba Mais
-              </Button>
+              </Button>*/}
             </CardActions>
           </Card>
 
