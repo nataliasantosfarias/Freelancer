@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { menuLinks } from "@/app/constants";
-import Registration from './Registration';
+
 
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
      
     <header style={{ zIndex: 9999 }} className="p-6 fixed top-0 left-0 w-full text-black">
       <div className="container mx-auto flex justify-between items-center">
-      <Registration/>
+     
         <div className="hidden md:flex space-x-6 text-white font-bold justify-center flex-grow">
           {menuLinks.map(link => (
             <Link key={link.href} href={link.href} className="hover:text-red-700"><span className="font-bold">{link.name}</span></Link>

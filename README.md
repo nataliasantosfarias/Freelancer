@@ -106,3 +106,25 @@ o USER  emitirá algumas informações como :
 * nome;  
 * idade;
 * experiência com exporte;  
+
+
+
+ Intuito do projeto:
+ 
+  formar atletas para competição
+
+e-mail de contato
+  Vic.bsp@hotmail.com
+
+1 - em média quantos alunos já entraram na academia;
+2- hoje ela está com quantos alunos matriculados;
+3 - Quantos treinadores ( fale brevimente sobre eles, ex : idade, tempo de carreira, vitórias em competições);
+
+
+
+Principal treinador:
+Victor Barbosa
+
+Head Coach: Seleção Sergipana de Boxe
+2x🥈vice campeão BRA
+1x🥇 campeão PE e 3x🥇SE
