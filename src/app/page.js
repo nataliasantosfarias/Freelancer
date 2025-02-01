@@ -13,7 +13,7 @@ export default function Home() {
         <MainMenu /> {/* Adicionando o componente MenuPrincipal */}
        
           <Card className="text-center w-full p-6 mt-20"> {/* Ajuste da margem superior */}
-          <h1 className="text-3xl font-bold text-blue-700">
+          <h1 className="text-3xl font-bold text-blue-800">
             Bem-vindo a Nocaute Clube Boxe
           </h1>
             <p className="text- text-gray-500 mt-4">Aqui na <b>Nocaute Clube Boxe</b>, nossa missão é transformar vidas através do poder do boxe.

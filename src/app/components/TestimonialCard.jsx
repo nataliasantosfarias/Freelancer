@@ -4,7 +4,7 @@ import StarIcon from '@mui/icons-material/Star';
 export default function TestimonialCard() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-center text-2xl font-bold mb-8 text-blue-900">DEPOIMENTO DE ALUNOS</h1>
+      <h1 className="text-center text-2xl font-bold mb-8 text-blue-800">DEPOIMENTO DE ALUNOS</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden my-10">
           <div className="sm:flex sm:items-center px-6 py-4">

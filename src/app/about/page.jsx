@@ -10,8 +10,6 @@ import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
 
 export default function about() {
-
-   
       return (
         <>
          <div className="relative w-full h-screen">
@@ -49,12 +47,12 @@ export default function about() {
                <h2 className="mt-2 text-xl font-bold text-red-500">Sobre o nosso projeto</h2>
              </div>
            </div>
-         </div>
+         </div> 
 
-           {/* CARD APRESENTAÇÃO DO PROJETO SOCIAL*/}
+           {/* CARD IMAGENS APRESENTAÇÃO DO PROJETO SOCIAL*/}
         <Card className="text-center w-full p-6 mt-20"> {/* Ajuste da margem superior */}
-          <h1 className="text-3xl font-bold text-blue-700">
-              Conheça o nosso projeto
+          <h1 className="text-3xl font-bold text-blue-800">
+              CONHEÇA O NOSSO PROJETO
           </h1>
             <h2 className="text- text-gray-500 mt-4">
               <b>Iniciado em 2019</b>,
@@ -69,8 +67,7 @@ export default function about() {
               como disciplina, respeito, autocontrole e resiliência.
             </p>
         </Card>
-          {/* FIM CARD*/}
-
+         
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <Card sx={{ maxWidth: 345, margin: 'auto' }}>
@@ -81,13 +78,13 @@ export default function about() {
                 image="/images/GaleriaPrincipal/ProjetoSocialAcademia.jpeg"
                 alt="imagem do Projeto Social de Boxe" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
-                  Treinamento Gratuito
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-red-500">
+                  Aulas totalmente Gratuitas
                 </Typography>
                   <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                    Sonhamos com um futuro onde todos tenham acesso ao esporte, 
+                   <b>Lutamos</b> para que no futuro, todos tenham acesso ao esporte, 
                     independentemente de sua condição socioeconômica, 
-                    e onde o boxe seja uma ferramenta poderosa de mudança social e formação de campeões dentro e fora dos ringues.
+                    e onde o boxe seja uma <b>ferramenta poderosa de mudança socia</b>l e formação de campeões dentro e fora dos ringues.
                    </Typography>
                 </CardContent>
               </CardActionArea>
@@ -98,8 +95,6 @@ export default function about() {
             </CardActions>
           </Card>
 
-         {/* FIM CARD IMAGENS*/}
-
           <Card sx={{ maxWidth: 345, margin: 'auto' }}>
             <CardActionArea>
               <CardMedia
@@ -108,11 +103,11 @@ export default function about() {
                 image="/images/GaleriaPrincipal/Entrevista.jpeg"
                 alt="Projeto Social de Boxe" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
-                  Projeto Social de Boxe
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-red-500">
+                Inclusão e Representatividade
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Na Nocaute nós reconhecemos a importânçia das atletas femininas no boxe, elas servem como modelo para outras mulheres e meninas.
+                  Na Nocaute nós reconhecemos a <b>importânçia das atletas femininas</b> no boxe, elas servem como modelo para outras mulheres e meninas.
                   mostrando que é possível alcançar altos níveis de desempenho em qualquer esporte
                   Incentivando mais mulheres a se envolverem em atividades físicas e a perseguirem suas paixões,
                   independentemente das barreiras sociais.
@@ -134,11 +129,11 @@ export default function about() {
                 image="/images/AboutImages/about_samuel.jpg"
                 alt="imagem atleta Samuel Campeonato" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
-                Treinamento Gratuito
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-red-500">
+                Apoio Psicossocial
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                <b></b>Apoio Psicossocial: Além do treinamento físico, oferecemos suporte psicossocial, ajudando os atletas a lidarem com desafios pessoais e profissionais.
+                Além do treinamento físico, oferecemos <b>suporte psicossocial</b>, ajudando os atletas a lidarem com desafios pessoais e profissionais.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -157,13 +152,13 @@ export default function about() {
                 image="/images/AboutImages/victoria_evento_atleta.jpg"
                 alt="imagem de atleta e Victoria preparação para lua em evento" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
-                Treinamento Gratuito
+                <Typography gutterBottom variant="h5" component="div" className="text-bold text-center text-red-500">
+                Incentivo a Competições
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                 Incentivamos e apoiamos nossos atletas a participarem de competições locais,
-                 regionais e nacionais, 
-                 proporcionando a experiência e a exposição necessárias para se destacarem no esporte.
+                  <b>Incentivamos e apoiamos</b> nossos atletas a participarem de competições locais,
+                  regionais e nacionais, 
+                  proporcionando a experiência e a exposição necessárias para se destacarem no esporte.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -179,14 +174,15 @@ export default function about() {
               <CardMedia
                 component="img"
                 height="140"
-                image="/images/AboutImages/about_samuel.jpg"
+                image="/images/AboutImages/img-atleta-ring.jpeg"
                 alt="imagem atleta Samuel Campeonato" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
-                Treinamento Gratuito
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-red-500">
+                Empoderamento e Superação
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Nosso projeto social de boxe visa proporcionar oportunidades para jovens de comunidades carentes. Através do esporte, buscamos promover disciplina, saúde e inclusão social, ajudando a transformar vidas e construir um futuro melhor.
+                  Nós não só ensinamos técnicas de combate, ensinamos também valores fundamentais que promovem a autodisciplina,
+                  a autoconfiança e o respeito mútuo.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -202,14 +198,16 @@ export default function about() {
               <CardMedia
                 component="img"
                 height="140"
-                image="/images/AboutImages/WhatsApp Image 2025-01-13 at 15.26.28.jpeg"
+                image="/images/AboutImages/Naylaine.jpeg"
                 alt="Projeto Social de Boxe" />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-blue-700">
-                  Projeto Social de Boxe
+                <Typography gutterBottom variant="h5" component="div" className=" text-bold text-center text-red-500">
+                Conquistas e Reconhecimento              
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Nosso projeto social de boxe visa proporcionar oportunidades para jovens de comunidades carentes. Através do esporte, buscamos promover disciplina, saúde e inclusão social, ajudando a transformar vidas e construir um futuro melhor.
+                  Desde o início do projeto, já impactamos a vida de centenas de jovens,
+                  proporcionando-lhes uma nova perspectiva de vida e oportunidades que antes eram inacessíveis.
+                  Muitos de nossos atletas já conquistaram títulos e estão trilhando um caminho de sucesso no boxe competitivo.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -219,7 +217,7 @@ export default function about() {
               </Button>*/}
             </CardActions>
           </Card>
-
+         
           {/* -------------------------------------------Video Cards--------------------------------------------------- */}
            
            <Card sx={{ maxWidth: 345, margin: 'auto' }}>
@@ -227,7 +225,7 @@ export default function about() {
               <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
                
                 <iframe
-                  src="https://www.youtube.com/embed/hvJ_43ZHXv8"
+                  src="https://www.youtube.com/embed/rh6Cq0tSl-c"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -238,27 +236,27 @@ export default function about() {
                 </iframe>
               </div>
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                Vídeo exemplo 1
+                <Typography gutterBottom variant="h5" component="div" className='text-bold text-center text-red-500'>
+                1ª COPA NOCAUTE BOXE 
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Assista ao vídeo para saber mais sobre o nosso projeto social de boxe e como ele está impactando a vida dos jovens.
+                 Primeira Copa organizada pela Nocaute boxe.
                 </Typography>
               </CardContent>
             </CardActionArea>
-            <CardActions>
+            {/*<CardActions>
               <Button size="small" color="primary">
                 Saiba Mais
               </Button>
-            </CardActions>
+            </CardActions>*/}
           </Card>
-          {/* Video Cards */}
+          
           <Card sx={{ maxWidth: 345, margin: 'auto' }}>
             <CardActionArea>
               <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
                
                 <iframe
-                  src="https://www.youtube.com/embed/hvJ_43ZHXv8"
+                  src="https://www.youtube.com/embed/nhAzOgK_8D0"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -269,20 +267,21 @@ export default function about() {
                 </iframe>
               </div>
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Segunda Copa Nocaute de Boxe
+                <Typography gutterBottom variant="h5" component="div" className="text-bold text-center text-red-500">
+                  2ª COPA NOCAUTE BOXE 
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Assista ao vídeo para saber mais sobre o nosso projeto social de boxe e como ele está impactando a vida dos jovens.
+                  Fique por dentro da segunda Copa Nocaute boxe, e veja como foi o evento.
                 </Typography>
               </CardContent>
             </CardActionArea>
-            <CardActions>
+             {/*<CardActions>
               <Button size="small" color="primary">
                 Saiba Mais
               </Button>
-            </CardActions>
+            </CardActions>*/}
           </Card>
+
           <Card sx={{ maxWidth: 345, margin: 'auto' }}>
             <CardActionArea>
               <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
@@ -299,19 +298,19 @@ export default function about() {
                 </iframe>
               </div>
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                 Vídeo exemplo 2
+                <Typography gutterBottom variant="h5" component="div" className="text-red-500">
+                COBERTURA DO 2º EVENTO
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Assista ao vídeo para saber mais sobre o nosso projeto social de boxe e como ele está impactando a vida dos jovens.
+                Acompanhe a 2º cobertura do  evento.
                 </Typography>
               </CardContent>
             </CardActionArea>
-            <CardActions>
+             {/*<CardActions>
               <Button size="small" color="primary">
                 Saiba Mais
               </Button>
-            </CardActions>
+            </CardActions>*/}
           </Card>
         </div>
       </div>
@@ -325,12 +324,12 @@ export default function about() {
       </script>
    
     <div className="container mx-auto px-4 py-8 mt-8">
-      <h1 className="text-3xl font-bold mb-6 text-center">CONHEÇA O NOSSO PROJETO</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center text-blue-800">AINDA SOBRE O NOSSO PROJETO</h1>
       <div className="space-y-6">
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h2 className="text-red-500 text-center text-2xl font-bold mb-2">Início do Projeto</h2>
           <p className="text-lg text-gray-700">
-            O projeto social de boxe foi iniciado em 2010 com o objetivo de proporcionar oportunidades para jovens de comunidades carentes. Através do esporte, buscamos promover disciplina, saúde e inclusão social, ajudando a transformar vidas e construir um futuro melhor.
+            O Projeto Social de Boxe, foi iniciado em 2019 com o objetivo de proporcionar oportunidades para jovens de comunidades carentes. Através do esporte, buscamos promover disciplina, saúde e inclusão social, ajudando a transformar vidas e construir um futuro melhor.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg">
