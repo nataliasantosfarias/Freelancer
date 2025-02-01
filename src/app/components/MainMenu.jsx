@@ -27,7 +27,7 @@ export default function MainMenu() {
       <div className="relative z-30 flex flex-col items-center justify-center h-full text-white p-6">
         <div className="absolute top-0 left-0 m-4">
           <Image
-            src="/images/MainMenu/LogoRecortada.png"
+            src="/images/MainMenu/LogoRecortada.png" // Substitua pelo caminho da sua imagem de logo
             alt="imagem da Logo"
             width={100} // Largura ajustada para mobile
             height={50} // Altura ajustada para mobile
