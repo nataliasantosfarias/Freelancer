@@ -6,11 +6,14 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
+import MainMenu from '../components/MainMenu';
 
 export default function Coaches() {
 
     return (
-        <Card sx={{ maxWidth: 345 }}>
+       <> <MainMenu bannerImage='/images/MainMenu/atletas-sem-fundo.png'/>
+       
+         <Card sx={{ maxWidth: 345 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -34,5 +37,6 @@ export default function Coaches() {
             </Button>
           </CardActions>
         </Card>
+       </>
       );
     }

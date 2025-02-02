@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
+import styles from './styles.module.css'
 
-export default function MainMenu() {
-
-  
+// A prop `bannerImage` é passada como argumento para o componente MainMenu.
+// Isso permite que o componente receba dados dinâmicos de seu componente pai.
+export default function MainMenu({ bannerImage }) {  
   return (
     <div className="relative w-full h-screen">
       <Image
@@ -15,12 +16,16 @@ export default function MainMenu() {
       />
       <div className="absolute bottom-0 z-20 w-full flex justify-center"> {/* Ajuste para posicionar a imagem no final */}
         <Image
-          src="/images/victoriaSFundoBanner.png"
+          // A prop `bannerImage` é usada aqui para definir a imagem do banner.
+          // Se `bannerImage` for fornecida, ela será usada como a fonte da imagem.
+          // Caso contrário, a imagem padrão "/images/victoriaSFundoBanner.png" será usada.
+          src={bannerImage || "/images/victoriaSFundoBanner.png"}
           alt="imagem sem fundo do banner"
           layout="intrinsic"
           width={600} // Aumentando a largura para melhorar a qualidade
           height={400} // Aumentando a altura para melhorar a qualidade
-          className="object-contain"
+          className={`object-contain ${styles.animateImage}`} // Aplicando a classe de animação
+          
           unoptimized={true}
         />
       </div>
