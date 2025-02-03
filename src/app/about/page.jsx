@@ -1,11 +1,9 @@
 'use client';
 import * as React from 'react';
-import Image from 'next/image';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
 import MainMenu from '../components/MainMenu';
@@ -16,8 +14,10 @@ export default function about() {
         {/* A prop `bannerImage` é passada para o componente MainMenu.
           Isso permite que o componente MainMenu utilize a imagem fornecida
           como o banner, em vez de usar a imagem padrão. */}
-        <MainMenu bannerImage='/images/MainMenu/atletas-sem-fundo.png'/>
-
+        <MainMenu bannerImage='/images/MainMenu/atletas-sem-fundo.png'
+         message="Nosso Projeto Social." 
+        />
+       
            {/* CARD IMAGENS APRESENTAÇÃO DO PROJETO SOCIAL*/}
         <Card className="text-center w-full p-6 mt-20"> {/* Ajuste da margem superior */}
           <h1 className="text-3xl font-bold text-blue-800">

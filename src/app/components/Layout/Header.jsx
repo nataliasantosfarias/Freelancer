@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { menuLinks } from "@/app/constants";
-
+import Enroll from './Enroll';
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,7 +13,7 @@ const Header = () => {
  
   return (
     <>
-     
+       <Enroll />
     <header style={{ zIndex: 9999 }} className={`p-6 absolute top-0 left-0 w-full text-white`}> 
       <div className="container mx-auto flex justify-between items-center">
      

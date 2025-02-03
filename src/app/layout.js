@@ -1,10 +1,11 @@
-
 import localFont from "next/font/local";
 import "./globals.css";
 
 import Header from './components/Layout/Header';
-
 import Footer from './components/Layout/Footer';
+import Buttonknow from './components/Layout/Buttonknow';
+// import Registration from "./components/Layout/Registration";
+import MainMenu from "./components/MainMenu";
 
 
 const geistSans = localFont({
@@ -25,13 +26,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header/>
-        {children}
-        
+          <MainMenu/>
+          {children}
+          <Buttonknow/>
         <Footer />
       </body>
     </html>
