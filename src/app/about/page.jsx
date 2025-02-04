@@ -13,7 +13,8 @@ export default function about() {
         <>
         {/* A prop `bannerImage` é passada para o componente MainMenu.
           Isso permite que o componente MainMenu utilize a imagem fornecida
-          como o banner, em vez de usar a imagem padrão. */}
+          como o banner, em vez de usar a imagem padrão.
+          Assim como a mensagem */}
         <MainMenu bannerImage='/images/MainMenu/atletas-sem-fundo.png'
          message="Nosso Projeto Social" 
         />
