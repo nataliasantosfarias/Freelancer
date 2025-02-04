@@ -31,7 +31,7 @@ export default function ImageGallery() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6 text-center ">Conheça o nosso Projeto Social</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center text-blue-800">Conheça o nosso Projeto Social</h1>
       
       {/* Main Image */}
       <div className="mb-4 cursor-pointer flex justify-center" onClick={() => openLightbox(mainImage)}>
