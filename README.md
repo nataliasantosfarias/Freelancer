@@ -129,7 +129,6 @@ Head Coach: Seleção Sergipana de Boxe
 2x🥈vice campeão BRA
 1x🥇 campeão PE e 3x🥇SE
 
-
-Criar botão registre-se, e matricule-se-lo em todas as rotas;
-Trazer componente MainMeunu para todas as outras rotas rota/tela;
-incluir acessibilidade em todas as rotas.
+Adicionar botão matricule-se responsivamente na versão telas grandes, obs! (na versão mobile já está pronto);
+Alterar/criar um layout personalizado, para a página matricular-se, para retirar fundo cinza da imagem ;
+Senha do canva para edição de imagens;
