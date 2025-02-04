@@ -17,6 +17,7 @@ export default function about() {
           Assim como a mensagem */}
         <MainMenu bannerImage='/images/MainMenu/atletas-sem-fundo.png'
          message="Nosso Projeto Social" 
+         backgroundImage='/images/fundoMenuPrincipal.jpg'
         />
        
            {/* CARD IMAGENS APRESENTAÇÃO DO PROJETO SOCIAL*/}

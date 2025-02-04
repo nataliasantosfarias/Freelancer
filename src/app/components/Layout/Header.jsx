@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { menuLinks } from "@/app/constants";
 import ButtonEnroll from './ButtonEnroll';
@@ -12,13 +13,18 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
+  const currentPath = usePathname()
+  const isActive = (href) => {
+    return href === currentPath
+  }
+
   return (
     <>
       <header style={{ zIndex: 9999 }} className={`p-6 absolute top-0 left-0 w-full text-white`}>
         <div className="container mx-auto flex justify-between items-center">
           <div className="hidden md:flex space-x-6 text-white font-bold justify-center flex-grow">
             {menuLinks.map(link => (
-              <Link key={link.href} href={link.href} className="hover:text-red-700">
+              <Link key={link.href} href={link.href} className={`hover:text-red-700 ${isActive(link.href)? 'text-red-700': ''}`}>
                 <span className="font-bold">{link.name}</span>
               </Link>
             ))}

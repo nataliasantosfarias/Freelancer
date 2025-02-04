@@ -8,6 +8,7 @@ const EnrollmentPage = () => {
     
     <MainMenu 
         message="Informações sobre Matrícula" 
+        backgroundImage='/images/fundoMenuPrincipal.jpg'
       />
         <Container maxWidth="md" sx={{ mt: 4 }}>
             <Typography variant="h4" component="h1" gutterBottom color="blue">

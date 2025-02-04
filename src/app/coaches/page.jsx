@@ -11,7 +11,7 @@ import MainMenu from '../components/MainMenu';
 export default function Coaches() {
 
     return (
-       <> <MainMenu bannerImage='/images/MainMenu/atletas-sem-fundo.png'/>
+       <> <MainMenu backgroundImage='/images/fundoMenuPrincipal.jpg' bannerImage='/images/MainMenu/atletas-sem-fundo.png'/>
        
          <Card sx={{ maxWidth: 345 }}>
           <CardActionArea>

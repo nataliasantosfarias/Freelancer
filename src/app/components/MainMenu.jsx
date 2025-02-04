@@ -1,21 +1,28 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
+import ButtonEnroll from './Layout/ButtonEnroll';
 import styles from './styles.module.css'
 
 // A prop `bannerImage` é passada como argumento para o componente MainMenu.
 // Isso permite que o componente receba dados dinâmicos de seu componente pai.
-export default function MainMenu({ bannerImage, message }) {  
+// backgroundColor = 'bg-gray-800' define um valor padrão para a propriedade backgroundColor, 
+// se não for passado nada o valor padrão será 'bg-gray-800'
+export default function MainMenu({ bannerImage, backgroundImage, backgroundColor = 'bg-gray-800', message }) {  
   return (
     
-    <div className="relative w-full h-screen">
-      <Image
-        src="/images/fundoMenuPrincipal.jpg"
-        alt="fundo"
-        layout="fill"
-        objectFit="cover" // Ajuste para cobrir toda a área
-        className="w-full h-full"
-      />
+    <div className={`relative w-full h-screen ${backgroundColor}`}>
+      {
+        backgroundImage && (
+          <Image
+          src={backgroundImage}
+          alt="fundo"
+          layout="fill"
+          objectFit="cover" // Ajuste para cobrir toda a área
+          className="w-full h-full"
+        />
+        )
+      }
       <div className="absolute bottom-0 z-20 w-full flex justify-center"> {/* Ajuste para posicionar a imagem no final */}
         <Image
           // A prop `bannerImage` é usada aqui para definir a imagem do banner.
@@ -41,6 +48,11 @@ export default function MainMenu({ bannerImage, message }) {
             className="object-contain md:w-80 md:h-64 mt-3" // Ajuste responsivo
           />
         </div>
+
+        <div className='absolute top-20 right-14 hidden md:block'>
+          <ButtonEnroll />
+        </div>
+
         <div className="text-center md:hidden w-full p-6 mt-[-160px]"> {/* Ajuste da margem superior */}
           <h1 className="text-2xl font-bold text-white">Nocaute Clube Boxe</h1>
           <hr className="border-t-6 border-gray-300 w-3/4 mx-auto my-4" /> {/* Linha suave com comprimento aumentado */}

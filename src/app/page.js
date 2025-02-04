@@ -8,7 +8,7 @@ import TestimonialCard from './components/TestimonialCard';
 export default function Home() {
   return (
       <>
-        <MainMenu /> 
+        <MainMenu backgroundImage='/images/fundoMenuPrincipal.jpg' /> 
           <Card className="text-center w-full p-6 mt-20"> {/* Ajuste da margem superior */}
           <h1 className="text-3xl font-bold text-blue-800">
             Seja Bem-vindo!
