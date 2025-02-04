@@ -4,9 +4,6 @@ import "./globals.css";
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import Buttonknow from './components/Layout/Buttonknow';
-// import Registration from "./components/Layout/Registration";
-import MainMenu from "./components/MainMenu";
-
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,7 +28,6 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header/>
-          <MainMenu/>
           {children}
           <Buttonknow/>
         <Footer />
