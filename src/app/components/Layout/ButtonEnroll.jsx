@@ -8,11 +8,11 @@ export default function ButtonEnroll() {
   const router = useRouter();
 
   const handleClick = () => {
-    router.push('/EnrollmentPage'); // Substitua '/about' pela rota desejada
+    router.push('/enrollment'); // Substitua '/about' pela rota desejada
   };
 
   return (
-    <div className="flex justify-center mt-8"> {/* Centralizando o botão na página */}
+    <div className=" mt-2 "> {/* Centralizando o botão na página */}
       <Stack direction="row" spacing={2}>
         <Button
           variant="outlined"

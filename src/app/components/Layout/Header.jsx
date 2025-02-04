@@ -23,9 +23,6 @@ const Header = () => {
               </Link>
             ))}
           </div> {/* mapeando os links */}
-          <div className="hidden md:flex items-center space-x-4"> {/* Adicionando o botão ao lado dos links */}
-            <ButtonEnroll />
-          </div>
         
           <div className="flex items-center space-x-2 md:hidden text-white ml-auto">
             <div className="cursor-pointer" onClick={toggleSidebar}>
