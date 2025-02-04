@@ -15,7 +15,7 @@ export default function about() {
           Isso permite que o componente MainMenu utilize a imagem fornecida
           como o banner, em vez de usar a imagem padrão. */}
         <MainMenu bannerImage='/images/MainMenu/atletas-sem-fundo.png'
-         message="Nosso Projeto Social." 
+         message="Nosso Projeto Social" 
         />
        
            {/* CARD IMAGENS APRESENTAÇÃO DO PROJETO SOCIAL*/}
