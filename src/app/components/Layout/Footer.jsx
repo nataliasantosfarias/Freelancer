@@ -1,8 +1,10 @@
+'use client';
 import React from 'react';
 import Image from 'next/image';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { FaLaptop } from 'react-icons/fa'; // ícones
+import LocationButton from './LocationButton';
 
 const Footer = () => {
   return (
@@ -26,6 +28,7 @@ const Footer = () => {
                 Nossa Sra. do Socorro - SE<br />
                 49160-000
               </p>
+              <LocationButton /> {/* Adicionando o botão de localização */}
             </div>
             <div className="text-center md:text-left mb-4 md:mb-0 w-full md:w-auto"> {/* Ajuste para garantir que a mensagem apareça em todas as telas */}
               <h2 className="text-xl font-bold mb-2">Entre em contato e siga-nos nas redes sociais</h2>
