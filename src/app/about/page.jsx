@@ -11,14 +11,11 @@ import MainMenu from '../components/MainMenu';
 export default function about() {
       return (
         <>
-        {/* A prop `bannerImage` é passada para o componente MainMenu.
-          Isso permite que o componente MainMenu utilize a imagem fornecida
-          como o banner, em vez de usar a imagem padrão.
-          Assim como a mensagem */}
-        <MainMenu bannerImage='/images/MainMenu/atletas-sem-fundo.png'
-         message="Nosso Projeto Social" 
-         backgroundImage='/images/fundoMenuPrincipal.jpg'
-        />
+          <MainMenu 
+              // Props mensagem 
+              // message="Informações sobre Matrícula" 
+              backgroundImage='/images/GaleriaPrincipal/samuelNocaulte2.jpg'
+            />
        
            {/* CARD IMAGENS APRESENTAÇÃO DO PROJETO SOCIAL*/}
         <Card className="text-center w-full p-6 mt-20"> {/* Ajuste da margem superior */}
@@ -326,3 +323,5 @@ export default function about() {
     </>
   );
 };
+
+  

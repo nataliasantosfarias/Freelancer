@@ -6,11 +6,14 @@ const EnrollmentPage = () => {
   return (
     <>
     
-    <MainMenu 
-        // Props mensagem 
-        // message="Informações sobre Matrícula" 
-        backgroundImage='/images/GaleriaPrincipal/samuelNocaulte2.jpg'
-      />
+    {/* A prop `bannerImage` é passada para o componente MainMenu.
+          Isso permite que o componente MainMenu utilize a imagem fornecida
+          como o banner, em vez de usar a imagem padrão.
+          Assim como a mensagem */}
+          <MainMenu bannerImage='/images/MainMenu/atletas-sem-fundo.png'
+          message="Nosso Projeto Social" 
+          backgroundImage='/images/fundoMenuPrincipal.jpg'
+         />
         <Container maxWidth="md" sx={{ mt: 4 }}>
             <Typography variant="h4" component="h1" gutterBottom color="blue" textAlign={'center'}>
                 Informações sobre Matrícula
