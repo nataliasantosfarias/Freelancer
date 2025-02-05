@@ -8,16 +8,16 @@ export default function Buttonknow() {
   const router = useRouter()
 
   const handleClick = () => {
-    router.push('/about'); // Substitua '/target-page' pela rota desejada
+    router.push('/about'); 
   };
 
   return (
-    <div className="flex justify-center mt-10"> {/* Centralizando o botão na página */}
+    <div className="flex justify-center mt-10"> 
       <Stack direction="row" spacing={2}>
         <Button
           variant="contained"
           onClick={handleClick}
-          className="bg-blue-900 text-white hover:bg-blue-700">
+          className=" text-white bg-blue-700 hover:bg-blue-500">
           Conheça o nosso Projeto 
         </Button>
       </Stack>
