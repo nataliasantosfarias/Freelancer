@@ -7,15 +7,17 @@ const EnrollmentPage = () => {
     <>
     
     <MainMenu 
-        message="Informações sobre Matrícula" 
-        backgroundImage='/images/fundoMenuPrincipal.jpg'
+        // Props mensagem 
+        // message="Informações sobre Matrícula" 
+        backgroundImage='/images/GaleriaPrincipal/samuelNocaulte2.jpg'
       />
         <Container maxWidth="md" sx={{ mt: 4 }}>
-            <Typography variant="h4" component="h1" gutterBottom color="blue">
+            <Typography variant="h4" component="h1" gutterBottom color="blue" textAlign={'center'}>
                 Informações sobre Matrícula
             </Typography>
             <Typography variant="body1" gutterBottom>
-                Bem-vindo à página de matrícula do Nocaute Clube Boxe. Aqui você encontrará todas as informações necessárias sobre como se matricular e as vantagens de participar do nosso projeto.
+                Bem-vindo à página de matrícula do Nocaute Clube Boxe.
+                 Aqui você encontrará todas as informações necessárias sobre como se matricular e as vantagens de participar do nosso projeto.
             </Typography>
 
             <Grid container spacing={4} sx={{ mt: 2 }}>
