@@ -3,6 +3,9 @@ import MainMenu from '../components/MainMenu';
 
 
 export default function Class() {
+  const weekDaysOrder = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+
+
   const classes = [
     { day: "Terça", start: "14:00", end: "16:00", title: "Sparring" },
     { day: "Segunda", start: "08:00", end: "10:00", title: "Treino Físico" },
@@ -11,9 +14,10 @@ export default function Class() {
     { day: "Quinta", start: "16:00", end: "18:00", title: "Treino Iniciante" },
     { day: "Sexta", start: "08:00", end: "10:00", title: "Treino Feminino" },
     { day: "Sábado", start: "10:00", end: "12:00", title: "Treino de competição" },
-  ]
+  ].sort((a, b) => {
+  return weekDaysOrder.indexOf(a.day) - weekDaysOrder.indexOf(b.day);
+});
 
-  const weekDaysOrder = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
 
   const uniqueDays = [...new Set(classes.map(({ day }) => day))]
 
